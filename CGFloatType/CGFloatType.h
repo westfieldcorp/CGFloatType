@@ -15,7 +15,7 @@ FOUNDATION_EXPORT double CGFloatTypeVersionNumber;
 FOUNDATION_EXPORT const unsigned char CGFloatTypeVersionString[];
 
 /// CGFLOAT_EPSILON the minimum positive number such that 1.0 + CGFLOAT_EPSILON != 1.0.
-extern CGFloat const CGFLOAT_EPSILON;
+// extern CGFloat const CGFLOAT_EPSILON;
 
 #pragma mark - CGFloat conversion
 
