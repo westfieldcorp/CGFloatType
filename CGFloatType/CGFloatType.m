@@ -8,7 +8,7 @@
 #import "CGFloatType.h"
 
 #ifdef CGFLOAT_IS_DOUBLE
-CGFloat const CGFLOAT_EPSILON = DBL_EPSILON;
+// CGFloat const CGFLOAT_EPSILON = DBL_EPSILON;
 #else
 CGFloat const CGFLOAT_EPSILON = FLT_EPSILON;
 #endif
